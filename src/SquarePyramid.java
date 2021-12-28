@@ -15,7 +15,7 @@ public class SquarePyramid extends SpaceShape implements AreaMeasurable, VolumeM
 
     @Override
     public double getArea() {
-        area = Math.sqrt(Math.pow(baseWidth / 2, 2) + Math.pow(baseHeight, 2)) * baseWidth;
+        area = 4*(Math.sqrt(Math.pow(baseWidth / 2, 2) + Math.pow(baseHeight, 2)) * baseWidth)+baseWidth*baseWidth;
         return area;
     }
 
